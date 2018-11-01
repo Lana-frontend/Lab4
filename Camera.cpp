@@ -10,7 +10,7 @@ Camera::Camera(){
 Camera::Camera(string _producer,int _volume_memory , int _zoom_ratio, int _minPrice, int _maxPrice , int _number_of_purchases,
                string _street_manufacture){
     producer = _producer;
-    volume_memory = _volume_memory;
+    volume_memory = _volume_memory;               // Реалізація об'єктів
     zoom_ratio = _zoom_ratio;
     minPrice = _minPrice;
     maxPrice =_maxPrice;
@@ -24,37 +24,38 @@ Camera::~Camera(){
 
 void Camera::Getproducer(){
 
-    cout << "Name Camera: " << producer << endl;
-
+    cout << "Name Camera: " << producer << endl;      // Виробник фотоапарату
+                                                          
 }
 void Camera::Getvolume_memory(){
 
-    cout << "Volume memory: " << volume_memory << endl;
+    cout << "Volume memory: " << volume_memory << endl;     // Об'єм пам'яті
 
 }
 void Camera::Getzoom_ratio(){
 
-    cout << "Zoom ratio: " << zoom_ratio << endl;
+    cout << "Zoom ratio: " << zoom_ratio << endl;       // Об'єктив
+ 
 
 }
 void Camera::GetminPrice(){
 
-    cout << "Min Price: " << minPrice << endl;
+    cout << "Min Price: " << minPrice << endl;                // Мінімальна ціна фотоапарату
 
 }
 void Camera::GetmaxPrice(){
 
-    cout << "Max Price: " << maxPrice << endl;
+    cout << "Max Price: " << maxPrice << endl;        // Максимальна ціна фотоапарату
 
 }
 void Camera::Getnumber_of_purchases(){
 
-    cout << "Number of purchases: " << number_of_purchases << endl;
+    cout << "Number of purchases: " << number_of_purchases << endl;   // Номер вулиці виробника
 
 }
 void Camera::Getstreet_manufacture(){
 
-    cout << "Street manufacture: " << street_manufacture << endl;
+    cout << "Street manufacture: " << street_manufacture << endl;   // Назва вулиці виробника
     cout << endl;
 
 }
