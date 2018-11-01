@@ -11,7 +11,7 @@ class Camera
         private:
 
     string producer;
-    int volume_memory;
+    int volume_memory;                                  // Створення класу фотоапарат з об'єктами
     int zoom_ratio;
 
         public:
@@ -24,7 +24,7 @@ class Camera
     void Getproducer();
     void Getvolume_memory();
     void Getzoom_ratio();
-    void GetminPrice();
+    void GetminPrice();                         // Створення функцій класу
     void GetmaxPrice();
     void Getnumber_of_purchases();
     void Getstreet_manufacture();
