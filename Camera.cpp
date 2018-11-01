@@ -10,7 +10,7 @@ Camera::Camera(){
 Camera::Camera(string _producer,int _volume_memory , int _zoom_ratio, int _minPrice, int _maxPrice , int _number_of_purchases,
                string _street_manufacture){
     producer = _producer;
-    volume_memory = _volume_memory;               // Реалізація об'єктів
+    volume_memory = _volume_memory;               // Реалізація класу 'Камера' , який містить 7 об'єктів.
     zoom_ratio = _zoom_ratio;
     minPrice = _minPrice;
     maxPrice =_maxPrice;
